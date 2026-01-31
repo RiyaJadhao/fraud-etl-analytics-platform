@@ -15,15 +15,15 @@ Aggregate fraud metrics at scale
 
 Provide fast, reliable analytics to decision-makers
 
-Traditional systems struggle with volume, performance, and data quality.
+Traditional systems struggle with data volume, performance, and data quality.
 
 💡 Solution
 
-This platform solves the problem by:
+This platform addresses these challenges by:
 
 Implementing a layered ETL pipeline using Delta Lake
 
-Separating raw, cleaned, and aggregated data
+Separating raw, cleaned, and aggregated datasets
 
 Creating Gold-layer KPIs optimized for analytics and dashboards
 
@@ -47,23 +47,6 @@ Apache Spark (PySpark & SQL)
 Delta Lake
 
 Databricks SQL Warehouse
-
-Git & GitHub
-
-📂 Project Structure
-fraud-etl-analytics-platform/
-│
-├── notebooks/
-│   ├── 01_Bronze_Ingestion.ipynb
-│   ├── 02_Silver_Transformation.ipynb
-│   ├── 03_Gold_Aggregations.ipynb
-│   └── 04_SQL_Analytics.ipynb
-│
-├── dashboards/
-│   └── databricks_sql_dashboard_screenshots/
-│
-├── README.md
-└── .gitignore
 
 🔁 ETL Pipeline Details
 🟤 Bronze Layer – Ingestion
@@ -106,7 +89,7 @@ Aggregations by transaction type
 
 Fraud amount and fraud count analysis
 
-The Gold layer is BI-ready and can be easily connected to tools like Tableau or Power BI via Databricks SQL Warehouse.
+The Gold layer is BI-ready and can be easily connected to Tableau or Power BI via Databricks SQL Warehouse.
 
 🚀 Key Highlights
 
@@ -129,6 +112,3 @@ Delta Live Tables (DLT)
 Tableau / Power BI dashboards
 
 Machine learning–based fraud detection
-
-👩‍💻 Author
-Riya Jadhao
